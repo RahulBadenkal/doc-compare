@@ -1,0 +1,53 @@
+<md-dialog style="width: 900px;" layout="column">
+<ng-include src="'../Shared/erplib/tpl/tpl-dlgHeader.html'"></ng-include>
+      
+
+
+	
+	
+<div class="md-dialog-content" style="background-color: #EFEFEF !important; padding: 10px; margin-top: 20px;">
+	<form class="sr-frm-dialog" name="dlgPurch" autocomplete="off" novalidate>
+		<div id="dlgIdFirst" tabindex="-1"></div>
+ 
+		<md-card layout="row"flex="100" style="margin-top:40px;text-align:center;">
+			
+			<div layout="column" flex="100" style="padding-top: 5%; padding-bottom: 5%; text-align:center">
+			 <md-button ng-click="getFile('file1input')">
+				 <input type="file" id="file1input" class="ng-hide" fileread="image" ng-files="getTheModuleDocFiles($files, $index)" />
+					<md-tooltip md-direction="top">attach</md-tooltip>
+                      <label>
+						   <i class="material-icons sr-table-icon" style="font-size:40px;color:gray;">picture_as_pdf</i>		
+						 								
+                      </label>
+             </md-button>
+			<div><u style="color:blue;">{{input_file1name}}</u></div>
+			</div>
+			<div style=" border-left: 1px solid gray; height:200px;"></div>
+			<div    flex="100"  layout="column"  style="padding-top: 5%;text-align:center; padding-bottom: 5%;">
+			 <md-button ng-click="getFile('file2input')">
+				 <input type="file" id="file2input" class="ng-hide" fileread="image"/>
+					<md-tooltip md-direction="top">attach</md-tooltip>
+                      <label>
+						  <i class="material-icons sr-table-icon" style="font-size:40px;color:gray;">picture_as_pdf</i>
+						 
+                      </label>
+             </md-button>
+				<div><u style="color:blue;">{{input_file2name}}</u></div>
+			</div>
+		</md-card>
+		
+	</form>
+</div>
+		
+
+	<md-dialog-actions layout="row" layout-sm="row" layout-align="center center">
+		<md-button class="sr-action md-raised md-primary" ng-click="answer('save')" aria-labelledby="save dialog" id="dlgIdSave">
+			<md-tooltip md-direction="top">continue</md-tooltip>					
+			<i class="material-icons" style="font-size:20px;">arrow_right_alt</i>
+		</md-button>
+		<md-button class="sr-cancel md-raised md-primary" ng-click="answer('cancel')" aria-labelledby="cancel dialog" id="dlgIdClose">
+			<md-tooltip md-direction="top">cancel</md-tooltip>					
+			<i class="material-icons sr-dlgbtn-img">close</i>
+		</md-button>		
+	</md-dialog-actions>
+</md-dialog>

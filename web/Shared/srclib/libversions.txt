@@ -1,0 +1,81 @@
+	<!-- Links to Fonts and Icons -->
+	<!-- https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic -->
+	http://fonts.googleapis.com/css?family=Roboto:400,100,‌​100italic,300,300ita‌​lic,400italic,500,50‌​0italic,700,700itali‌​c,900italic,900
+	https://fonts.googleapis.com/icon?family=Oswald
+	https://fonts.googleapis.com/icon?family=Open+Sans+Condensed:300
+	https://fonts.googleapis.com/icon?family=Exo
+	https://fonts.googleapis.com/css?family=Assistant
+	https://fonts.googleapis.com/css?family=Product+Sans:100,300
+	https://fonts.googleapis.com/icon?family=Material+Icons
+	https://fonts.gstatic.com/s/materialicons/v19/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2
+
+	<!-- Icon files older -->
+	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+	<!-- Icon files newer, download link -->
+	https://fontawesome.com/start
+	<!-- Icons list -->
+	http://fontawesome.io/
+	
+	<!-- Links to Angular Libraries -->
+    https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js
+	https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js
+	https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js
+  
+	https://cdnjs.cloudflare.com/ajax/libs/ng-idle/0.3.5/angular-idle.min.js
+	
+    https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js
+    https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js
+    https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js
+	
+    https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.10/ngStorage.min.js
+
+	https://ajax.googleapis.com/ajax/libs/angular_material/1.1.6/angular-material.min.css
+    https://ajax.googleapis.com/ajax/libs/angular_material/1.1.6/angular-material.min.js
+	[*** code change: tabindex of mdChipsCtrl has been set to -1 ***]
+
+  	<!-- Hotkeys -->
+	https://cdnjs.cloudflare.com/ajax/libs/angular-hotkeys/1.7.0/hotkeys.min.css
+	https://cdnjs.cloudflare.com/ajax/libs/angular-hotkeys/1.7.0/hotkeys.min.js
+	
+    <!-- Barcode -->
+	http://plnkr.co/edit/z2nXgXyGi6LhSHth8ZNi?p=preview	
+    
+  	<!-- Progress bar -->
+	https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.css
+	https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.js
+	
+	<!-- d3, xlsx -->
+    http://d3js.org/d3.v4.min.js
+    https://cdnjs.cloudflare.com/ajax/libs/alasql/0.3.5/alasql.min.js
+    https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.12/xlsx.core.min.js
+	
+	<!-- d3 comparator version v0.1.0 -->
+	https://github.com/interactivethings/d3-comparator
+	(link from https://www.npmjs.com/package/d3-comparator)
+	
+	<!-- pikaday -->
+	https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css
+	https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js
+	
+	<!-- pikaday angular -->
+	http://plnkr.co/edit/xVPXuYoGtRUdbQYipZMe?p=preview
+	
+	<!-- tuple javascript -->
+	https://github.com/Olical/tuple
+	
+	<!-- pdf make javascript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.39/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.33/vfs_fonts.js"></script>
+	
+	<!-- generate custom vfs_fonts file -->
+	https://github.com/bpampuch/pdfmake/wiki/Custom-Fonts---client-side
+	(works only if gulp global version and local version are same)
+
+	<!-- reporting tool -->
+	http://ui-grid.info/release/ui-grid.js
+    http://ui-grid.info/release/ui-grid.css
+	<!-- excel downloads -->
+	http://ui-grid.info/docs/grunt-scripts/lodash.min.js
+	http://ui-grid.info/docs/grunt-scripts/excel-builder.dist.js
+
+	<!-- end -->

@@ -1,0 +1,20 @@
+	<md-toolbar class="md-hue-3 md-whiteframe-z2 sr-toolbar" flex layout="row" ng-style="uiStyles.toolbar">
+		<div class="md-toolbar-tools sr-toolbar-tools">
+			<span style="font-size: 13px; font-family: 'Open Sans Condensed'; font-weight: bold; color: white; 
+						 line-height: 25px; white-space: nowrap;">{{dlgTitle}}</span>
+			<span style="font-size: 13px; font-family: 'Open Sans Condensed'; font-weight: bold; color: white" ng-if="dlgSubTitle">
+				&nbsp;:&nbsp;</span>
+			<span ng-class="{'sr-smallText':dlgSubTitle.length>0 && dlgSubTitle.length<100 ,'sr-longText':dlgSubTitle.length>100 && dlgSubTitle.length<200}"
+				  style="font-family: 'Exo'; font-weight: bold; color: white; line-height: 25px;">{{dlgSubTitle}}</span>
+			<span flex style="font-size: 15px; font-family: 'Exo'; font-weight: bold; color: white; margin-left: 100px;">{{dlgLoading}}</span>
+			<md-button class="sr-dlg-cancel md-fab md-mini" ng-click="cancel()" aria-label="close dialog">
+				<i class="material-icons sr-fabaction-img">close</i>
+			</md-button>                
+		</div>
+	</md-toolbar>        
+
+	<div ng-class="{'animated fadeOutUp':animation.shake}" layout="row" layout-xs="row" layout-sm="row" layout-align="space-between center" 
+		 style="padding: 1%; position: fixed; width: 100%;" ng-if="dlgError">
+		<div flex flex-offset="10" style="height: 20px;" class="sr-error">{{dlgError}}</div>
+        <div ><i ng-click="stopAnimation();" class="material-icons" style="color: white;">cancel</i></div>
+	</div>

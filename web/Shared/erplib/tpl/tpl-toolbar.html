@@ -1,0 +1,29 @@
+<div class="sr-toolbar">
+	<md-toolbar class="md-hue-3 md-whiteframe-z2 sr-toolbar" flex layout="row" ng-style="uiStyles.toolbar">
+		<div class="md-toolbar-tools sr-toolbar-tools" layout-align="space-between center;">
+			<md-button class="sr-toolbar-btn" ng-click="onLogoClicked($event)" aria-label="applications" >
+				<md-tooltip md-direction="down">logo</md-tooltip>
+				
+				<img ng-src="./img/drillslogo.png"  style="width:100px !important;" >
+			</md-button>
+			
+			<md-menu-bar style="padding-left: 20px; padding-right: 5px; float:right;">
+				<md-menu>
+					<md-button class="sr-profile-btn" ng-click="openMenu($mdMenu, $event)" aria-label="settings">
+						<md-tooltip md-direction="down">{{loggeduser}}</md-tooltip>
+						<img ng-src="../img/stk.jpg" style="margin-top: 0px; width: 45px; height: 45px; border-radius: 60px;">
+					</md-button>
+
+					<md-menu-content width="2" style="padding-top: 5px; padding-bottom: 5px;">
+						<md-menu-item>
+							<md-button class="sr-menu-text" ng-click="menuLogout($event)" aria-label="sign out">
+								Sign Out
+							</md-button>
+						</md-menu-item>
+					</md-menu-content>
+				</md-menu>
+			</md-menu-bar>
+
+		</div>
+	</md-toolbar>
+</div>

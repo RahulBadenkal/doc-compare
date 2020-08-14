@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="sarciDrilsDocCmp">
+<head>
+    <script type="text/javascript">
+            let timerStart = Date.now();
+            console.log(timerStart);
+        </script>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="DataDrills | SARCI"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+	<meta name="robots" content="noindex">
+
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+	
+    <title>DataDrills | SARCI</title>
+    
+    <!-- Fonts & Icons -->
+	<link rel="stylesheet" href="../Shared/srclib/css/roboto.css"/>
+    <link rel="stylesheet" href="../Shared/srclib/css/oswald.css"/>
+    <link rel="stylesheet" href="../Shared/srclib/css/open-sans.css"/>
+    <link rel="stylesheet" href="../Shared/srclib/css/exo.css"/>
+	<link rel="stylesheet" href="../Shared/srclib/css/assistant.css"/>
+    <link rel="stylesheet" href="../Shared/srclib/css/material-icons.css"/>
+	<link rel="stylesheet" href="../Shared/srclib/css/all.min.css">
+	<link rel="stylesheet" href="../Shared/srclib/css/v4-shims.min.css">
+	<link rel="stylesheet" href="../Shared/srclib/css/google-product-font.css"/>
+	
+    <!-- Angular Stylesheets -->
+	<link rel="stylesheet" href="../Shared/srclib/css/angular-material.min.css"/>
+    <link rel="stylesheet" href="../Shared/srclib/css/hotkeys.min.css"/>
+    <link rel="stylesheet" href="../Shared/srclib/css/pikaday.min.css"/>
+	
+    <!-- SARCI Stylesheets common to all modules -->
+    <link rel="stylesheet" href="../Shared/erplib/css/sarci-erp.css"/>
+	
+	 <!--  Helper Utils 
+    <script src="./shared/srclib/strUtils/diff_match_patch.js"></script>
+    <script src="./shared/srclib/strUtils/strUtils.js"></script>
+	
+-->
+	<script src="../eel.js"></script>
+	
+</head>
+<body ng-controller="docToolCtrl">
+    <div ui-view=""></div>
+
+  <!-- Angular Libraries -->
+    <script src="../Shared/srclib/js/angular.min.js"></script>
+	<script src="../Shared/srclib/js/angular-ui-router.min.js"></script>
+    <script src="../Shared/srclib/js/moment.min.js"></script>
+    <script src="../Shared/srclib/js/hotkeys.min.js"></script>
+	<script src="../Shared/srclib/js/angular-idle.min.js"></script>
+
+    <script src="../Shared/srclib/js/angular-animate.min.js"></script>
+    <script src="../Shared/srclib/js/angular-aria.min.js"></script>
+    <script src="../Shared/srclib/js/angular-messages.min.js"></script>
+    <script src="../Shared/srclib/js/ngStorage.min.js"></script>
+  
+   <!-- Date picker Libraries -->
+	<script src="../Shared/srclib/js/pikaday.min.js"></script>
+	<script src="../Shared/srclib/js/pikaday-angular.js"></script>
+	
+    <!-- include this as the last library -->
+    <script src="../Shared/srclib/js/angular-material.min.js"></script>
+
+
+    <!-- SARCI Common Module Definitions -->
+   <script src="./js/app-docCmp.js"></script>
+	<script src="./js/config-docCmp.js"></script>
+    <script src="./js/ctrl-docCmp.js"></script>
+	
+<!--	<script src="../js/diff_match_patch.js"></script>-->
+    <script src="./js/strUtils.js"></script>
+   
+	
+</body>
+</html>
+
+
+

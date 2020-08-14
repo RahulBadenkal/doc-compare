@@ -1,0 +1,15 @@
+<!--
+	</md-dialog-content>
+-->
+        
+	<md-dialog-actions layout="row" layout-sm="row" layout-align="center center">
+		<md-button class="sr-action md-raised md-primary" ng-click="answer('save')" aria-labelledby="save dialog" id="dlgIdSave"
+					ng-if="!dlgReadOnly">
+			<md-tooltip md-direction="top">{{dlgActionLbl}}</md-tooltip>					
+			<i class="material-icons sr-dlgbtn-img">{{dlgActionIcon}}</i>
+		</md-button>
+		<md-button class="sr-cancel md-raised md-primary" ng-click="answer('cancel')" aria-labelledby="cancel dialog" id="dlgIdClose">
+			<md-tooltip md-direction="top">cancel</md-tooltip>					
+			<i class="material-icons sr-dlgbtn-img">close</i>
+		</md-button>		
+	</md-dialog-actions>
